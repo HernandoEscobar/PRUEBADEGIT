@@ -34,6 +34,10 @@ document.getElementById("boton_ocultar").addEventListener('click', function() {
     document.getElementById('demo').style.display = 'none'
 });
 
+document.getElementById("boton_mostrar").addEventListener('click', function() {  
+    document.getElementById('demo').style.display = 'block'
+});
+
 const coleccion = document.getElementsByClassName('prueba');
 for (let i = 0; i < coleccion.length; i++) {
     coleccion[i].style.backgroundColor = 'green';
